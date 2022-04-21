@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-# sigmoid激活函数
+# sigmoid激活函数。
 def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 

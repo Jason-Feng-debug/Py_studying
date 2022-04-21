@@ -7,7 +7,7 @@ def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 
 
-# 逻辑回归的代价函数
+# 逻辑回归的代价函数。
 def cost(theta, X, y):
     theta = np.matrix(theta)
     X = np.matrix(X)
